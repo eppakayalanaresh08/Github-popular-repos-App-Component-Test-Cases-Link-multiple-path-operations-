@@ -1,0 +1,101 @@
+.repository-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 100%;
+  background-color: #f8f8ff;
+  border-radius: 24px;
+  height: 300px;
+  margin-bottom: 24px;
+  padding: 24px;
+}
+
+@media (min-width: 576px) {
+  .repository-item {
+    flex-basis: 45%;
+    margin-left: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .repository-item {
+    flex-basis: 30%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .repository-item {
+    flex-basis: 23%;
+  }
+}
+
+.repository-image {
+  width: 92px;
+  height: 92px;
+}
+
+.repository-name {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.stats-container {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin-bottom: 16px;
+}
+
+.stats-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+}
+
+.stats-text {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+}
+
+/* .avatar-url {
+  width: 100px;
+}
+
+.card-Item-bg {
+  background-color: #f8f8ff;
+  list-style-type: none;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 250px;
+}
+
+.name-Item {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #e73959;
+}
+
+.each-card-container-description {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.card-each-image {
+  width: 20px;
+}
+
+.count {
+  margin-left: 10px;
+  margin: 0px;
+  font-family: 'Roboto';
+  padding-left: 10px;
+} */
